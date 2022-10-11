@@ -1,0 +1,47 @@
+libprobe-perl-perl (0.03-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:39:00 +0100
+
+libprobe-perl-perl (0.03-1) unstable; urgency=low
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+  * Fix typo in long description of package.
+    Thanks to Pascal De Vuyst <pascal.devuyst@gmail.com> (Closes: #700878)
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.03
+  * Update years of upstream copyright
+  * Update stand-alone License paragraphs
+  * Bump dh compatibility to level 8 (no changes necessary)
+  * Delete duplicate build-dependency on perl
+  * Declare compliance with Debian Policy 3.9.4
+  * Make short description a noun phrase
+  * Switch to source format 3.0 (quilt)
+  * Switch to short-form debian/rules
+  * Add myself to uploaders and copyright
+
+ -- Florian Schlichting <fsfs@debian.org>  Thu, 26 Sep 2013 23:43:23 +0200
+
+libprobe-perl-perl (0.01-1) unstable; urgency=low
+
+  * Initial Release. Closes: #498887 -- ITP
+
+ -- Damyan Ivanov <dmn@debian.org>  Sun, 14 Sep 2008 09:29:22 +0300

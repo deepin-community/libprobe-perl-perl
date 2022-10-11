@@ -1,0 +1,23 @@
+Source: libprobe-perl-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, Florian Schlichting <fsfs@debian.org>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8),
+               perl
+Standards-Version: 3.9.4
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libprobe-perl-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libprobe-perl-perl.git
+Homepage: https://metacpan.org/release/Probe-Perl/
+
+Package: libprobe-perl-perl
+Architecture: all
+Depends: ${perl:Depends},
+         ${misc:Depends}
+Description: module to obtain information about the currently running Perl interpreter
+ Probe::Perl provides methods for obtaining information about the currently
+ running Perl interpreter.
+ .
+ It can retrieve the current version, path, @INC or details about perl
+ configuration, as well as compare if two Perl interpreters are the same.
+
